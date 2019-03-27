@@ -65,7 +65,8 @@ func main() {
 	// 	fmt.Println("VirtualSize: ", img.VirtualSize)
 	// 	fmt.Println("ParentId: ", img.ParentID)
 	// }
-	Networks_info, err = client.ListNetworks()
-	fmt.Println(Networks_info)
+	// Networks_info, err = client.ListNetworks()
+
+	// fmt.Println(Networks_info)
 
 }
