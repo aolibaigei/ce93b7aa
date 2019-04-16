@@ -29,6 +29,10 @@ func main() {
 	fmt.Println("Docker根目录:", info.DockerRootDir)
 	fmt.Println("Docker版本:", info.ServerVersion)
 	fmt.Println("Dokcer运行时:", info.DefaultRuntime)
+	fmt.Println("Registry:", info.IndexServerAddress)
+	fmt.Println("Runtimes:", info.Runtimes)
+	fmt.Println("标签:", info.Labels)
+	fmt.Println("标签:", info.Name)
 	//
 	//
 	//
